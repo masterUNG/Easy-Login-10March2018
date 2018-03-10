@@ -12,6 +12,9 @@
 		C4EB225F2053943700CD03FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EB225D2053943700CD03FD /* Main.storyboard */; };
 		C4EB22612053943700CD03FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EB22602053943700CD03FD /* Assets.xcassets */; };
 		C4EB22642053943700CD03FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EB22622053943700CD03FD /* LaunchScreen.storyboard */; };
+		C4EB226C2053959800CD03FD /* masterung_round.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EB226B2053959800CD03FD /* masterung_round.png */; };
+		C4EB226E2053966C00CD03FD /* ic_account_box_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EB226D2053966C00CD03FD /* ic_account_box_48pt.png */; };
+		C4EB2270205396C400CD03FD /* ic_lock_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EB226F205396C400CD03FD /* ic_lock_48pt.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		C4EB22602053943700CD03FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4EB22632053943700CD03FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4EB22652053943700CD03FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EB226B2053959800CD03FD /* masterung_round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = masterung_round.png; sourceTree = "<group>"; };
+		C4EB226D2053966C00CD03FD /* ic_account_box_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_account_box_48pt.png; sourceTree = "<group>"; };
+		C4EB226F205396C400CD03FD /* ic_lock_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_48pt.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				C4EB22592053943700CD03FD /* AppDelegate.swift */,
+				C4EB226B2053959800CD03FD /* masterung_round.png */,
+				C4EB226F205396C400CD03FD /* ic_lock_48pt.png */,
+				C4EB226D2053966C00CD03FD /* ic_account_box_48pt.png */,
 				C4EB225B2053943700CD03FD /* ViewController.swift */,
 				C4EB225D2053943700CD03FD /* Main.storyboard */,
 				C4EB22602053943700CD03FD /* Assets.xcassets */,
@@ -123,9 +132,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4EB2270205396C400CD03FD /* ic_lock_48pt.png in Resources */,
 				C4EB22642053943700CD03FD /* LaunchScreen.storyboard in Resources */,
 				C4EB22612053943700CD03FD /* Assets.xcassets in Resources */,
 				C4EB225F2053943700CD03FD /* Main.storyboard in Resources */,
+				C4EB226C2053959800CD03FD /* masterung_round.png in Resources */,
+				C4EB226E2053966C00CD03FD /* ic_account_box_48pt.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
