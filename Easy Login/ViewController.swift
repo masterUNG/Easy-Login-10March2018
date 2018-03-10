@@ -46,7 +46,15 @@ class ViewController: UIViewController {
         print("User ==> \(userString)")
         print("Password ==> \(passwordString)")
         
-        resultString = officeDict[userString]!
+        
+        
+        if let testUser = officeDict[userString] {
+            resultString = testUser
+        } else {
+            showLabel.text = dialogString[1]
+        }
+        
+        
         print("Result ==> \(resultString)")
         
         if (resultString == passwordString) {
